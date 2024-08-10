@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'src'
 from paho.mqtt import client as mqtt
 
 # Constants
-BROKER_ADDRESS = "192.168.1.153"
+BROKER_ADDRESS = "MQTTServerIP"
 TOPIC_COMMAND = "esp32/game/command"
 TOPIC_RESPONSE = "esp32/game/response"
 DEPLETION_INTERVAL = 5  # Time in seconds between each depletion
