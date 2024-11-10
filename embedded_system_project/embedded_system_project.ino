@@ -5,9 +5,9 @@
 #include <Adafruit_MPU6050.h>
 
 // Wi-Fi and MQTT configuration
-const char* ssid = "WifiSSID";
-const char* password = "WifiPassword";
-const char* mqtt_server = "MQTTServerIP"; // Replace with your MQTT broker IP
+const char* ssid = "ssid";
+const char* password = "password";
+const char* mqtt_server = "ip";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
